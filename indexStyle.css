@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+#se{
+    position: absolute;
+    top: 0; left: 0;
+}
+
+nav {
+    display: flex;
+    background: linear-gradient(to bottom, rgb(200, 200, 200), rgb(240, 240, 240));
+    justify-content: center;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+    margin: 2px;
+}
+
+#menu a:hover {
+    background: rgba(170, 170, 170, .4);
+    border-radius: 5px;
+}
+
+#main {
+    margin: 0 10%;
+}
+
+.center {
+    text-align: center;
+}
+
+#bcgr {
+    background: rgba(255,255,255,0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#game{
+    background: #071502;
+}
